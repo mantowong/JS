@@ -1,0 +1,12 @@
+Beschreibt den Prozess, bei dem Variablen, Funktionen und Klassen im Programmcode ganz nach oben geschoben werden. (Als erstes ausgeführt werden)
+
+Konsequenz: 
+- Funkitonsaufrufe funktionieren schon vor Funktionsdeklaration
+- Variablen lassen sich schon vor Deklaration verwenden
+-> Hoisting bezieht sich dabei nur auf Deklaration, nicht auf Initialisierung
+-> Deklarierte Var-Variablen können gelesen werden
+-> let und const-Variablen müssen erst mal initialisiert werden bevor die gelesen werden können
+
+Quelle: https://developer.mozilla.org/en-US/docs/Glossary/Hoisting
+
+
