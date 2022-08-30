@@ -31,10 +31,10 @@ function myFunction() {
 
 //funciton-scope
 /*
-Alle Variablen innerhalb einer Funktion sind nur für die Funktion verfügbar und nicht von außen zugreifbar
+Alle Variablen innerhalb einer Funktion sind nur für die Funktion verfügbar und nicht von außen zugreifbar (außer var)
 */
 function myFunction() {
-    var carName = "Volvo";   // Function Scope
+    var carName = "Volvo";   // Function Scope, global scope
   }
 
   function myFunction() {
@@ -44,3 +44,11 @@ function myFunction() {
   function myFunction() {
     const carName = "Volvo";   // Function Scope
   }
+
+// Global scopes
+/*
+var, let, const sind globale Variablen, wenn sie außerhalb einer Funktion deklariert werden
+*/
+var x = 2;       // Global scope
+let x = 2;       // Global scope 
+const x = 2;       // Global scope 

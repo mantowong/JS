@@ -15,7 +15,7 @@ function summe(x,y){
     console.log(x+y); //Ausgabe: 8
     console.log(x+y+z); //Ausgabe: 16
 }
-
+console.log(y)
 //var x ist für das ganze Programm verfügbar, unabhängig wo es deklariert wird
 
 /*
@@ -24,4 +24,5 @@ Ausgabe:
 6
 8
 16
+6
 */
